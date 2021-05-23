@@ -2,7 +2,7 @@
 [20]: https://kubernetes.io/de/docs/tasks/tools/install-kubectl/
 
 
-# M300-MAAS-Kubernetes-CLI 
+# M300-MAAS-Kubernetes-CLI Setup
 
 Dieses Tutorial unterstützt Dich dabei, den eigenen Windows-Client so aufzusetzen, dass anschliessend eine RESTful-Verbindung zum persönlichen MAAS-Kubernetes API-Server besteht. Dieses Setup ermöglicht es, deklarative Scripts an den K8s API-Server (Control Plane, Master-Node) zu übermitteln und so verschiedene K8s-Übungen durchzuführen. 
 
@@ -19,7 +19,7 @@ Mit **kubectl** können Clusterressourcen überprüft werden, Komponenten erstel
 
 Der folgende Screenshot zeigt die Installation auf Windows mit dem Package-Manager [Chocolatey][10]:
 
-> `$ choco inst kubernetes-cli Setup` _K8s-CLI Package mit Chocolatey installieren_<br>
+> `$ choco inst kubernetes-cli` _K8s-CLI Package mit Chocolatey installieren_<br>
 > `$ kubectl cluster-info  ` _Checken, ob **kubectl** Output generiert (Pfad ok)_ <br>
   ![Screenshot](images/02_install_kubernetes-cli.png) 
 
