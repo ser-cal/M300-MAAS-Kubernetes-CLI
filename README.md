@@ -1,20 +1,19 @@
 [10]: https://chocolatey.org/install
 [20]: https://kubernetes.io/de/docs/tasks/tools/install-kubectl/
-
+[30]: https://rancher.com/learning-paths/how-to-manage-kubernetes-with-kubectl/
 
 # M300-MAAS-Kubernetes-CLI Setup
 
 Dieses Tutorial unterstützt Dich dabei, den eigenen Windows-Client so aufzusetzen, dass anschliessend eine RESTful-Verbindung zum persönlichen MAAS-Kubernetes API-Server besteht. Dieses Setup ermöglicht es, deklarative Scripts an den K8s API-Server (Control Plane, Master-Node) zu übermitteln und so verschiedene K8s-Übungen durchzuführen. 
 
-Diese deklarativen Scripts sind yaml (oder json)-Files und werden mit dem Kommando **kubectl** dem Control Plane (K8s-Server oder auch Master-Node genannt) übergeben.  
-Dieses Packet ist per Default noch nicht auf dem System und muss runtergeladen werden (siehe unten)
+Diese deklarativen Scripts sind yaml (oder json)-Files und werden mit dem Kommando **kubectl** dem Control Plane (K8s-Server oder auch Master-Node genannt) übergeben. **kubectl** ist per Default noch nicht auf dem System und muss runtergeladen werden
 
-## Voraussetzungen:
-- [Chocolatey][10]: Windows Package-Manager (nicht zwingend)
-- [kubectl][20]: Befehlszeilenprogramm, um Anwendungen auf Kubernetes bereitzustellen und zu verwalten
+## Vorgehen:
+- [Chocolatey][10] installieren: Windows Package-Manager (nicht zwingend)
+- [kubectl][20] installieren: **CLI**, um Anwendungen auf Kubernetes bereitzustellen und zu verwalten
 
 ## Kubernetes-CLI (kubectl) installieren mit Chocolatey
-Auf [DIESER URL][20] findest Du die Installationsanleitung für div. Betriebssysteme. <br>
+Auf [DIESER URL][20] findest Du die **kubectl**-Installationsanleitung für div. Betriebssysteme. <br>
 Mit **kubectl** können Clusterressourcen überprüft werden, Komponenten erstellt, gelöscht und aktualisiert werden; Man kann den neuen Cluster betrachten; und Beispielanwendungen aufrufen.
 
 Der folgende Screenshot zeigt die Installation auf Windows mit dem Package-Manager [Chocolatey][10]:
@@ -34,3 +33,9 @@ Packete die mit Chocolatey installiert werden, werden abgelegt unter:
 C:\ProgramData\chocolatey\lib\kubernetes-cli\tools
 ```
 ...dies für den Fall, dass die **$PATH**-Variable noch ergänzt werden muss (sollte allerdings im Normfall nicht nötig sein)
+
+
+- - - 
+
+## Quellen
+- [How to Manage Kubernetes with kubectl][30] 
