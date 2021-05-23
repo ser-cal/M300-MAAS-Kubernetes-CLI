@@ -12,7 +12,13 @@ Diese deklarativen Scripts sind yaml (oder json)-Files und werden mit dem Komman
 - [Chocolatey][10] installieren: Windows Package-Manager (nicht zwingend)
 - [kubectl][20] installieren: **CLI**, um Anwendungen auf Kubernetes bereitzustellen und zu verwalten
 
-## Kubernetes-CLI (kubectl) installieren mit Chocolatey
+### Chocolatey installieren unter Windows (nicht zwingend)
+PowerShell Kommando (als Administrator) -> Copy/Paste
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+### Kubernetes-CLI (kubectl) installieren mit Chocolatey
 Auf [DIESER URL][20] findest Du die **kubectl**-Installationsanleitung für div. Betriebssysteme. <br>
 Mit **kubectl** können Clusterressourcen überprüft werden, Komponenten erstellt, gelöscht und aktualisiert werden; Man kann den neuen Cluster betrachten; und Beispielanwendungen aufrufen.
 
