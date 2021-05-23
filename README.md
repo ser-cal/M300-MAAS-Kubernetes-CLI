@@ -19,7 +19,7 @@ Mit **kubectl** können Clusterressourcen überprüft werden, Komponenten erstel
 
 Der folgende Screenshot zeigt die Installation auf Windows mit dem Package-Manager [Chocolatey][10]:
 
-> `$ choco inst kubernetes-cli ` _K8s-CLI Package mit Chocolatey installieren_<br>
+> `$ choco inst kubernetes-cli Setup` _K8s-CLI Package mit Chocolatey installieren_<br>
 > `$ kubectl cluster-info  ` _Checken, ob **kubectl** Output generiert (Pfad ok)_ <br>
   ![Screenshot](images/02_install_kubernetes-cli.png) 
 
