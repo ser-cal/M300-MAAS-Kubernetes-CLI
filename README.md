@@ -15,7 +15,7 @@ Dieses Packet ist per Default noch nicht auf dem System und muss runtergeladen w
 
 ## Kubernetes-CLI (kubectl) installieren mit Chocolatey
 Auf [DIESER URL][20] findest Du die Installationsanleitung für div. Betriebssysteme. <br>
-Mit kubectl können Clusterressourcen überprüft werden, Komponenten erstellt, gelöscht und aktualisiert werden; Man kann den neuen Cluster betrachten; und Beispielanwendungen aufrufen.
+Mit **kubectl** können Clusterressourcen überprüft werden, Komponenten erstellt, gelöscht und aktualisiert werden; Man kann den neuen Cluster betrachten; und Beispielanwendungen aufrufen.
 
 Der folgende Screenshot zeigt die Installation auf Windows mit dem Package-Manager [Chocolatey][10]:
 
@@ -23,8 +23,14 @@ Der folgende Screenshot zeigt die Installation auf Windows mit dem Package-Manag
 > `$ kubectl cluster-info  ` _Checken, ob **kubectl** Output generiert (Pfad ok)_ <br>
   ![Screenshot](images/02_install_kubernetes-cli.png) 
 
-Packete die mit Chocolatey installiert werden, werden abgelegt unter: <br> `C:\ProgramData\chocolatey\lib\` <br>
+Packete die mit Chocolatey installiert werden, werden abgelegt unter: 
+```
+ C:\ProgramData\chocolatey\lib\
+```
 
 **kubectl** liegt in folgendem Verzeichnis:<br>
-`C:\ProgramData\chocolatey\lib\kubernetes-cli\tools`<br>
-...für den Fall, dass die $PATH-Variable noch ergänzt werden muss (sollte im Normfall nicht nötig sein)
+
+```
+C:\ProgramData\chocolatey\lib\kubernetes-cli\tools
+```
+...dies für den Fall, dass die **$PATH**-Variable noch ergänzt werden muss (sollte allerdings im Normfall nicht nötig sein)
