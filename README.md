@@ -40,6 +40,8 @@ C:\ProgramData\chocolatey\lib\kubernetes-cli\tools
 ```
 ...dies für den Fall, dass die **$PATH**-Variable noch ergänzt werden muss (sollte allerdings im Normfall nicht nötig sein)
 
+...weitere Infos folgen
+
 
 - - - 
 
